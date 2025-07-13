@@ -132,7 +132,7 @@
 
 <FlagShip />
 
-    <!-- Testimonial Section - Enhanced -->
+   <!-- Testimonial Section - Enhanced -->
     <section class="testimonial py-20 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
@@ -142,43 +142,10 @@
               Trusted by Ghana's Leading Organizations
             </h2>
             <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
-          </div>
+          </div> 
           
-          <!-- Featured Testimonial -->
-          <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-100">
-            <div class="text-center">
-              <!-- Quote Icon -->
-              <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
-                </svg>
-              </div>
-
-              <blockquote class="text-xl md:text-2xl text-gray-700 font-medium mb-8 leading-relaxed italic">
-                "Working with CENOVATE was a game-changer for our construction project. Their integrated approach 
-                and attention to detail exceeded our expectations. The team's professionalism and expertise 
-                made the entire process seamless from start to finish."
-              </blockquote>
-
-              <!-- Client Info -->
-              <div class="flex items-center justify-center space-x-4">
-                <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
-                  <span class="text-2xl font-bold text-primary">DC</span>
-                </div>
-                <div class="text-left">
-                  <p class="font-bold text-gray-900 text-lg">CEO, Danad Consult</p>
-                  <p class="text-gray-600">Construction Partnership Project</p>
-                  <div class="flex items-center mt-1">
-                    <div class="flex text-yellow-400 text-sm">
-                      ⭐⭐⭐⭐⭐
-                    </div>
-                    <span class="ml-2 text-gray-500 text-sm">5-Star Rating</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+         
+<TestimonialsSection />
           <!-- Trust Indicators -->
           <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-center">
             <div>
@@ -187,7 +154,7 @@
             </div>
             <div>
               <div class="text-2xl mb-2">📍</div>
-              <div class="text-sm font-semibold text-gray-900">Kumasi Based</div>
+              <div class="text-sm font-semibold text-gray-900">Accra & Kumasi Based</div>
             </div>
             <div>
               <div class="text-2xl mb-2">🎯</div>
@@ -289,6 +256,7 @@
 <script setup lang="ts">
 import FlagShip from '@/components/common/FlagShip.vue'
 import HeroSection from '@/components/common/HeroSection.vue'
+import TestimonialsSection from '@/components/common/TestimonialsSection.vue'
 import { ref, computed, onMounted } from 'vue'
 
 

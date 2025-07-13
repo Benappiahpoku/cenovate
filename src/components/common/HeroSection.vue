@@ -1,6 +1,7 @@
 <template>
   <!-- Hero Section - Centered for all screens -->
-  <section class="hero-section min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-800 to-primary-600 text-white overflow-hidden">
+  <section
+    class="hero-section min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-800 to-primary-600 text-white overflow-hidden">
     <!-- Background Pattern for Visual Interest -->
     <div class="absolute inset-0 opacity-10 pointer-events-none">
       <div class="absolute inset-0"
@@ -34,8 +35,7 @@
 
         <!-- Value Proposition -->
         <p class="text-lg md:text-xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
-          Integrated construction, engineering, and property development solutions
-          for Ghana's growing infrastructure needs. Based in Kumasi, serving the Ashanti Region with excellence.
+          Integrated construction, engineering, and property development solutions for Ghana's growing infrastructure needs. <!-- Based in Kumasi, serving the Ashanti Region with excellence. -->
         </p>
 
         <!-- Trust Indicators -->

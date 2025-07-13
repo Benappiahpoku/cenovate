@@ -93,16 +93,14 @@
 
                     <!-- Visual (right on desktop, bottom on mobile) -->
                     <div class="flex justify-center">
-                        <div class="relative w-full max-w-lg h-64 md:h-80 lg:h-96">
-                            <!-- Responsive rectangle with background and icon -->
-                            <div
-                                class="w-full h-full bg-primary-700 rounded-xl shadow-2xl flex items-center justify-center overflow-hidden">
-                                <div class="flex flex-col items-center justify-center w-full h-full">
-                                    <div class="text-6xl mb-2">🏠</div>
-                                    <p class="text-white/80 text-lg font-semibold">Image Placeholder</p>
-                                    <p class="text-white/50 text-xs">Affordable Housing Project</p>
-                                </div>
-                            </div>
+                        <div
+                            class="relative w-full max-w-lg h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-2xl bg-primary-700 flex items-center justify-center">
+                            <video class="w-full h-full object-cover rounded-xl" autoplay loop muted playsinline
+                                poster="/affordablehousing.webp" preload="auto" tabindex="-1">
+                                <source src="/affordablevid.mp4" type="video/mp4" />
+                                <img src="/affordablehousing.webp" alt="Affordable Housing Project"
+                                    class="w-full h-full object-cover rounded-xl" />
+                            </video>
                             <!-- Decorative elements -->
                             <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-yellow-300 rounded-full opacity-30">
                             </div>

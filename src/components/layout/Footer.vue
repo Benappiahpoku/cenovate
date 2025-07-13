@@ -23,19 +23,7 @@
           </div>
         </div>
         
-        <!-- Ghana Business Info -->
-        <div class="mt-4 pt-4 border-t border-gray-800">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
-            <div>
-              <span class="font-medium">Payment Methods:</span>
-              <span class="ml-2">{{ paymentMethodsText }}</span>
-            </div>
-            <div class="text-center md:text-right">
-              <span class="font-medium">Timezone:</span>
-              <span class="ml-2">{{ countryConfig.timezone }}</span>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </footer>
@@ -53,10 +41,6 @@ const countryConfig = getCountryConfig()
 
 // ===== Computed Properties =====
 const currentYear = computed(() => new Date().getFullYear())
-
-const paymentMethodsText = computed(() => 
-  countryConfig.paymentMethods.slice(0, 3).join(', ')
-)
 
 
 </script>
