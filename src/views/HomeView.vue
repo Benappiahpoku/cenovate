@@ -135,7 +135,7 @@
    <!-- Testimonial Section - Enhanced -->
     <section class="testimonial py-20 bg-white">
       <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-6xl mx-auto">
           <!-- Section Header -->
           <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -145,7 +145,7 @@
           </div> 
           
          
-<TestimonialsSection />
+            <TestimonialsSection />
           <!-- Trust Indicators -->
           <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-center">
             <div>
