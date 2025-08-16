@@ -8,7 +8,7 @@
         <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div class="text-center md:text-left">
             <p class="text-gray-400">
-              © {{ currentYear }} CENOVATE Limited Company. All rights reserved.
+              © {{ currentYear }} Cenovate Company. All rights reserved.
             </p>
           </div>
           

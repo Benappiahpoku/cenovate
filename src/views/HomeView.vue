@@ -13,7 +13,7 @@
             </h2>
             <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
             <p class="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              CENOVATE LIMITED COMPANY is a Ghanaian enterprise delivering sustainable solutions 
+              Cenovate Company is a Ghanaian enterprise delivering sustainable solutions 
               in the built environment. With our strategic focus on Kumasi and the Ashanti Region, 
               we provide comprehensive services from construction and engineering to property development.
             </p>
